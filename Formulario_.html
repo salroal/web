@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+</head>
+
+<body class="formulario">
+ 
+    <form action="mailto:salroal@hotmail.com" method="post" name="formulario">
+
+        <fieldset>
+        <legend><h2>Breaking Bad - Que comience el juego!</h2></legend>
+        <legend><b>Datos personales:</b></legend>
+        <br>
+        Nombre:
+        <input type="text" name="nombre" required>
+        <br> 
+        Apellidos:
+        <input type="text" name="apellidos" required>
+        <br>
+        DNI:
+        <input type="text" name="DNI" id="">
+        <br>
+        Correo electrónico:
+        <input type="email" name="" required>
+        <br>
+        Fecha de nacimiento:
+        <input type="date" name="fecha nacimiento" id="">
+        <br>
+        Sexo:
+        <input type="radio" name="sexo" id="Hombre">Hombre
+        <input type="radio" name="sexo" id="Mujer">Mujer
+        <br>
+        <br>
+        <legend><b>Dirección postal:</b></legend>
+        <br>
+        Calle:
+        <input type="text" name="calle" id="">
+        <br>
+        Número:
+        <input type="number" name="numero" id="">
+        <br>
+        Piso:
+        <input type="number" name="piso" id="">
+        <br>
+        Código postal:
+        <input type="number" name="codigo postal" id="">
+        <br>
+        Ciudad:
+        <input type="text" name="ciudad" id="">
+        <br>
+        <br>
+        <b>Elige tu personaje favorito:</b>
+        <select name="personajes" id="">
+            <option value="1">Jessie Pinkman</option>
+            <option value="2">Walter White</option>
+            <option value="3">Saul Goodman</option>
+            <option value="4">Gustavo Fring</option>
+            <option value="5">Pollos Hermanos</option>
+            <option value="6">Otros personales</option>
+        </select>
+        <br>
+        <br>
+        <b>Comentarios:</b>
+        <br>
+        <textarea name="comentarios" id="" cols="30" rows="10" maxlength="240"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Reset">
+        <input type="file" name="Archivos">
+
+    </fieldset>
+
+    </form>
+
+</body>
+</html>

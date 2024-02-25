@@ -1,0 +1,92 @@
+@font-face{
+    font-family: 'BreakingBadFont';
+    src: url('Breaking\ Bad.ttf') format('truetype');
+}
+.index{
+    /* body del index */
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    font-family: BreakingBadFont;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.formulario{
+    /* body del formulario */
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    font-family: Helvetica;
+    color: white;
+    text-align: left;
+}
+.tabla{
+    /* body de la tabla */
+    background-color: #637124;
+    font-family: Helvetica;
+    color: #2e331f;
+    text-align: center;   
+}
+table{
+    /* table de la tabla */
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #2b2c24;
+    border-collapse:collapse;
+    font-size: 10px; 
+    background-color: #d2e57b;  
+}
+td{
+    /* td de la tabla */
+    width: 50px;
+    height: 50px;
+    border: 5px solid #2b2c24;
+}
+#poster{
+    width: 700px; 
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+}
+#logo{
+    width: 200px; 
+    height: 200px;
+}
+#celdaVacia{
+    background-color: #2b2c24;
+}
+#celdaWhiteFam{
+    background-color: #b6d91a;
+}
+#celdaMarie{
+    background-color: #ab8fcd;
+}
+#celdaCopFam{
+    background-color: #f0f7ce;
+}
+#celdaObjFam{
+    background-color: #c1c526;
+}
+#celdaBandFam{
+    background-color: #89a419;
+}
+#celdaSalamanca{
+    background-color: #c4e04f;
+}
+#celdaGustavo{
+    background-color: #bcc49b;
+}
+#celdaTortuga{
+    background-color: #818e48;
+}
+#celdaJessieFriends{
+    background-color: #63702a;
+}
+#LetraXL{
+    font-size: 45px;
+}
